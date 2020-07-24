@@ -32,7 +32,9 @@ q1a1.addEventListener("click", resultMoody);
 function resultMoody(){
   moodyScore++;
   questionCount++;
-  if()
+  if(questionCount >= 3) {
+    updateResult();
+  }
 }
 
 function resultFestive(){
