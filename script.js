@@ -48,7 +48,7 @@ q3a4.addEventListener("click", resultFestive);
 function resultMoody() {
   moodyScore++;
   questionCount++;
-  alert("moody+1");
+  // alert("moody+1");
   
   if (questionCount >= 3) {
     updateResult();
@@ -58,7 +58,7 @@ function resultMoody() {
 function resultFestive() {
   festiveScore++;
   questionCount++;
-  alert("festive+1");
+  // alert("festive+1");
   
   if (questionCount >= 3) {
     updateResult();
@@ -68,7 +68,7 @@ function resultFestive() {
 function resultModern() {
   modernScore++;
   questionCount++;
-  alert("modern+1");
+  // alert("modern+1");
   
   if (questionCount >= 3) {
     updateResult();
@@ -78,7 +78,7 @@ function resultModern() {
 function resultHomey() {
   homeyScore++;
   questionCount++;
-  alert("homey+1");
+  // alert("homey+1");
   
   if (questionCount >= 3) {
     updateResult();
@@ -87,18 +87,18 @@ function resultHomey() {
 
 function updateResult() {
   if (moodyScore >= 2) {
-    result.innerHTML = "Moody and Mysterious"
+    result.innerHTML = "Moody and Mysterious";
   }
   else if (homeyScore >= 2) {
-    
+    result.innerHTML = "Comfortable and Homey";
   }
   else if (festiveScore >= 2) {
-    
+    result.innerHTML = "Fun and Festive";
   }
   else if (modernScore >= 2) {
-    
+    result.innerHTML = "Modern and Elegant";
   }
   else {
-    
+    result.innerHTML = "Result inconclusive. You're an interesting one..."
   }
 }
