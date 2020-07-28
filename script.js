@@ -88,6 +88,7 @@ function resultHomey() {
 function updateResult() {
   if (moodyScore >= 2) {
     result.innerHTML = "Moody and Mysterious";
+    result.innerHTML = <img src="https://cdn.glitch.com/532a55e3-82b4-48f3-8769-7b4aeab731c4%2Fmoody%20(1).jpg?v=1595479791523" width="400px" height="150px">";
   }
   else if (homeyScore >= 2) {
     result.innerHTML = "Comfortable and Homey";

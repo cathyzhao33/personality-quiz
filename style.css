@@ -22,3 +22,11 @@ h2 {
 .answer-choice img {
   height: 10em;
 }
+
+.question2 {
+  display: inline-block;
+}
+
+img {
+  padding-top: 1em;
+}
